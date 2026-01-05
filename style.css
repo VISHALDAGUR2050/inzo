@@ -152,3 +152,44 @@
                                                                                                                                                                             transform: translateY(0);
                                                                                                                                                                               }
                                                                                                                                                                               }
+/* BOTTOM LOGIN / REGISTER SECTION */
+.bottom-auth {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 25px;
+  text-align: center;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.25);
+}
+
+.bottom-auth h3 {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.bottom-auth p {
+  font-size: 14px;
+  opacity: 0.85;
+  margin-bottom: 15px;
+}
+
+.bottom-buttons a {
+  display: inline-block;
+  margin: 0 8px;
+  padding: 10px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.bottom-buttons a:first-child {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.bottom-buttons a:last-child {
+  background: #ffffff;
+  color: #000000;
+}
