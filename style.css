@@ -2,157 +2,120 @@
 
 * {
   margin: 0;
-    padding: 0;
-      box-sizing: border-box;
-        font-family: 'Poppins', sans-serif;
-        }
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
 
-        body {
-          min-height: 100vh;
-            background:
-                linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-                    url("images/mountains.jpg") center / cover no-repeat;
-                      color: #ffffff;
-                      }
+body {
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("images/mountains.jpg") center / cover no-repeat;
+  color: #ffffff;
+}
 
-                      /* HEADER */
-                      .header {
-                        display: flex;
-                          justify-content: space-between;
-                            align-items: center;
-                              padding: 20px;
-                              }
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
 
-                              .logo img {
-                                height: 45px;
-                                }
+.logo img {
+  height: 45px;
+}
 
-                                /* BUTTONS */
-                                .auth-buttons a {
-                                  text-decoration: none;
-                                    margin-left: 10px;
-                                      padding: 8px 16px;
-                                        border-radius: 8px;
-                                          font-size: 14px;
-                                          }
+/* TOP BUTTONS */
+.auth-buttons a {
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+}
 
-                                          .login-btn {
-                                            border: 1px solid #fff;
-                                              color: #fff;
-                                              }
+.login-btn {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
 
-                                              .register-btn {
-                                                background: #fff;
-                                                  color: #000;
-                                                  }
+.register-btn {
+  background: #ffffff;
+  color: #000000;
+}
 
-                                                  /* HERO */
-                                                  .hero {
-                                                    text-align: center;
-                                                      padding: 70px 20px 40px;
-                                                        animation: fadeUp 0.8s ease;
-                                                        }
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 70px 20px 40px;
+  animation: fadeUp 0.8s ease;
+}
 
-                                                        .hero h1 {
-                                                          font-size: 42px;
-                                                            letter-spacing: 2px;
-                                                            }
+.hero h1 {
+  font-size: 42px;
+  letter-spacing: 2px;
+}
 
-                                                            .tagline {
-                                                              font-size: 14px;
-                                                                opacity: 0.85;
-                                                                  margin-top: 8px;
-                                                                  }
+.tagline {
+  margin-top: 8px;
+  font-size: 14px;
+  opacity: 0.85;
+}
 
-                                                                  /* INTRO BOX */
-                                                                  .intro-box {
-                                                                    margin: 40px auto;
-                                                                      max-width: 420px;
-                                                                        padding: 22px;
-                                                                          border-radius: 16px;
-                                                                            background: rgba(255,255,255,0.15);
-                                                                              backdrop-filter: blur(12px);
-                                                                                border: 1px solid rgba(255,255,255,0.25);
-                                                                                  animation: fadeUp 1s ease;
-                                                                                  }
+/* INTRO BOX */
+.intro-box {
+  margin: 40px auto;
+  max-width: 420px;
+  padding: 22px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.25);
+}
 
-                                                                                  .plans {
-                                                                                    list-style: none;
-                                                                                    }
+.intro-box h2 {
+  margin-bottom: 15px;
+}
 
-                                                                                    .plans li {
-                                                                                      margin: 10px 0;
-                                                                                        font-size: 15px;
-                                                                                        }
+.plans {
+  list-style: none;
+}
 
-                                                                                        /* INFO BOX */
-                                                                                        .info-box {
-                                                                                          max-width: 700px;
-                                                                                            margin: 40px auto;
-                                                                                              padding: 25px;
-                                                                                                border-radius: 16px;
-                                                                                                  background: rgba(255,255,255,0.12);
-                                                                                                    backdrop-filter: blur(10px);
-                                                                                                      border: 1px solid rgba(255,255,255,0.25);
-                                                                                                        animation: fadeUp 1.1s ease;
-                                                                                                        }
+.plans li {
+  margin: 10px 0;
+  font-size: 15px;
+}
 
-                                                                                                        .info-box h2 {
-                                                                                                          margin-bottom: 15px;
-                                                                                                          }
+/* INFO BOX */
+.info-box {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.25);
+  animation: fadeUp 1s ease;
+}
 
-                                                                                                          .info-box ul,
-                                                                                                          .info-box ol {
-                                                                                                            max-width: 420px;
-                                                                                                              margin: auto;
-                                                                                                                text-align: left;
-                                                                                                                }
+.info-box h2 {
+  margin-bottom: 15px;
+}
 
-                                                                                                                .info-box li {
-                                                                                                                  margin: 8px 0;
-                                                                                                                    font-size: 14px;
-                                                                                                                    }
+.info-box ol {
+  max-width: 420px;
+  margin: auto;
+  text-align: left;
+}
 
-                                                                                                                    /* FOOTER */
-                                                                                                                    .footer {
-                                                                                                                      margin-top: 60px;
-                                                                                                                        padding: 20px;
-                                                                                                                          text-align: center;
-                                                                                                                            font-size: 13px;
-                                                                                                                              opacity: 0.85;
-                                                                                                                              }
+.info-box li {
+  margin: 8px 0;
+  font-size: 14px;
+}
 
-                                                                                                                              .footer a {
-                                                                                                                                color: #fff;
-                                                                                                                                  text-decoration: underline;
-                                                                                                                                  }
-
-                                                                                                                                  /* WHATSAPP BUTTON */
-                                                                                                                                  .whatsapp-float {
-                                                                                                                                    position: fixed;
-                                                                                                                                      bottom: 20px;
-                                                                                                                                        right: 20px;
-                                                                                                                                          background: #25D366;
-                                                                                                                                            color: #fff;
-                                                                                                                                              padding: 12px 18px;
-                                                                                                                                                border-radius: 50px;
-                                                                                                                                                  text-decoration: none;
-                                                                                                                                                    font-size: 14px;
-                                                                                                                                                      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-                                                                                                                                                      }
-
-                                                                                                                                                      /* ANIMATION */
-                                                                                                                                                      @keyframes fadeUp {
-                                                                                                                                                        from {
-                                                                                                                                                            opacity: 0;
-                                                                                                                                                                transform: translateY(25px);
-                                                                                                                                                                  }
-                                                                                                                                                                    to {
-                                                                                                                                                                        opacity: 1;
-                                                                                                                                                                            transform: translateY(0);
-                                                                                                                                                                              }
-                                                                                                                                                                              }
-/* BOTTOM LOGIN / REGISTER SECTION */
+/* BOTTOM AUTH */
 .bottom-auth {
   max-width: 700px;
   margin: 40px auto;
@@ -166,30 +129,50 @@
 
 .bottom-auth h3 {
   margin-bottom: 8px;
-  font-size: 20px;
 }
 
-.bottom-auth p {
-  font-size: 14px;
-  opacity: 0.85;
-  margin-bottom: 15px;
-}
-
-.bottom-buttons a {
+.bottom-buttons .register-btn {
   display: inline-block;
-  margin: 0 8px;
-  padding: 10px 22px;
-  border-radius: 8px;
+  margin-top: 15px;
+  padding: 10px 26px;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 60px;
+  padding: 20px;
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* WHATSAPP */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: #ffffff;
+  padding: 12px 18px;
+  border-radius: 50px;
   text-decoration: none;
   font-size: 14px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 
-.bottom-buttons a:first-child {
-  border: 1px solid #ffffff;
-  color: #ffffff;
-}
-
-.bottom-buttons a:last-child {
-  background: #ffffff;
-  color: #000000;
+/* ANIMATION */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
